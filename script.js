@@ -1,3 +1,5 @@
-<button onclick = "alert('Welcome to 30DaysOfJavascript!')">Click ME</button>
-console.log('Welcome to 30 Days OF javaScript!')
+let name = 'Asabeneh', // name of a person
+job = 'teacher',
+live = 'Finland'
+console.log(name, job, live)
     

@@ -1,0 +1,109 @@
+The following are JavaScript primitive data types:String, Number, Boolean, undefined, Null, and Symbol.
+Booleans
+A boolean value is either True or False. Any comparisons returns a boolean value, which is either true or false.
+
+A boolean data type is either a true or false value.
+
+Example:
+
+true // if the light is on, the value is true
+false // if the light is off, the value is false
+
+
+Null and Undefined Difference.
+In JavaScript, if we don't assign a value to a variable, the value is undefined. In addition to that, if a function is not returning anything, it returns undefined.
+
+Ex :
+let firstName
+console.log(firstName) // undefined, because it is not assigned to a value yet
+
+Null
+Null in JavaScript means an empty value.
+
+let emptyValue = null
+
+If we want to cheack the type of the variable we used 
+Typeof Operator.  like below 
+
+console.log(typeof 'Asabeneh') // string
+console.log(typeof 5) // number
+console.log(typeof true) // boolean
+console.log(typeof null) // object type
+console.log(typeof undefined) // undefined
+
+
+Commentint in JavaScript
+ 
+// Used For single Line Comment 
+/* */ used For multi line Comment
+
+
+Variable : 
+Variables are containers of data. Variables are used to store data in a memory location.
+
+To declare a variable we used Var, let  and const
+For a variable that changes at a different time, we use let. If the data does not change at all, we use const. 
+For example, PI, country name, gravity do not change, and we can use const. We will not use var in this challenge and I don't recommend you to use it. It is error prone way 
+of declaring variable it has lots of leak. We will talk more about var, let, and const in detail in other sections (scope). For now, the above explanation is enough.
+
+A valid JavaScript variable name must follow the following rules:
+
+A JavaScript variable name should not begin with a number.
+A JavaScript variable name does not allow special characters except dollar sign and underscore.
+A JavaScript variable name follows a camelCase convention.
+A JavaScript variable name should not have space between words.
+Like below
+firstName
+lastName
+country
+city
+capitalCity
+age
+isMarried
+
+first_name
+last_name
+is_married
+capital_city
+
+num1
+num_1
+_num_1
+$num1
+year2020
+year_2020
+
+THERE IS SOME OF THE EXAMPLE OF INVALID Variable
+  first-name
+  1_num
+  num_#_1
+
+
+  Syntax for varible declarition
+  // Syntax
+let nameOfVariable = value
+
+
+Example of declared variable 
+// Declaring different variables of different data types
+let firstName = 'Asabeneh' // first name of a person
+let lastName = 'Yetayeh' // last name of a person
+let country = 'Finland' // country
+let city = 'Helsinki' // capital city
+let age = 100 // age in years
+let isMarried = true
+
+console.log(firstName, lastName, country, city, age, isMarried)
+
+// Declaring variables with number values
+let age = 100 // age in years
+const gravity = 9.81 // earth gravity  in m/s2
+const boilingPoint = 100 // water boiling point, temperature in °C
+const PI = 3.14 // geometrical constant
+console.log(gravity, boilingPoint, PI)
+
+// Variables can also be declaring in one line separated by comma
+let name = 'Asabeneh', // name of a person
+job = 'teacher',
+live = 'Finland'
+console.log(name, job, live)
